@@ -7,9 +7,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 const Home = (props) => {
-	// function pause() {
-	// 	clearInterval({count})
-	// }
+	
 
 	return (
 		<>
@@ -22,7 +20,6 @@ const Home = (props) => {
 				<span className="border border-light rounded-3 p-2 m-3">{props.digit5}</span>
 				<span className="border border-light rounded-3 p-2 m-3">{props.digit6}</span>
 			</div>
-
 		</>
 	);
 };

@@ -15,11 +15,8 @@ let num5= 0
 let num6= 0
 
 
-// let pause= function () {
-//     clearInterval(count);
-// }
 
-const count = setInterval(function () {
+setInterval(function () {
 
     console.log( num6++)
     if (num6 > 9) {
